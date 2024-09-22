@@ -1,5 +1,7 @@
 # Project CV: A project from The Odin Project
 
+Live: https://top-project-a3cc69hj2-necryls-projects.vercel.app/
+
 The objective of this exercise was to learn about React's states and props.
 
 Currently, two official plugins are available:
