@@ -1,0 +1,33 @@
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  padding: 0.5em;
+  background-color: rgb(163, 214, 190);
+}
+
+#skills :is(span, button) {
+  padding: 0.3em 0.5em 0.3em 0.5em;
+  border: 0.15em solid green;
+  background-color: rgb(106, 211, 106);
+  border-radius: 0.5em;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(9, 51, 5);
+}
+
+#skills button {
+  align-self: center;
+  height: max-content;
+  width: max-content;
+  opacity: 75%;
+}
+
+#skills button:hover {
+  opacity: 100%;
+  scale: 105%;
+}
+
+#skills span {
+  user-select: none;
+}

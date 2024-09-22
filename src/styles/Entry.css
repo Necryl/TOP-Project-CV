@@ -1,0 +1,17 @@
+.entry {
+  position: relative;
+  border: 2px solid black;
+  padding: 1.5em;
+  border-radius: 1em;
+  page-break-inside: avoid;
+}
+
+.entry > div {
+  display: grid;
+  grid-template-columns: 1fr auto 1vw;
+  align-items: center;
+  gap: 2em;
+}
+
+.entry > div p {
+}

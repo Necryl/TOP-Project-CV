@@ -1,0 +1,10 @@
+#navBar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 1em;
+  background-color: rgb(26, 53, 110);
+}
+
+#navBar button {
+  padding: 0.5em;
+}

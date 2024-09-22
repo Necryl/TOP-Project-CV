@@ -1,0 +1,12 @@
+#ledger {
+  display: grid;
+  --gap: 1em;
+  gap: var(--gap);
+  padding: var(--gap);
+}
+
+#xptitlebar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}

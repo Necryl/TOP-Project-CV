@@ -1,0 +1,43 @@
+#form-container {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  display: grid;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+#form-box {
+  position: relative;
+  place-self: center;
+  padding: 2em;
+  background-color: aqua;
+  border-radius: 1em;
+  width: max-content;
+  height: max-content;
+}
+
+#form-box img {
+  --size: 3em;
+  height: var(--size);
+  width: var(--size);
+  object-fit: cover;
+  border-radius: 50%;
+  outline: 0.15em solid black;
+}
+#form-box img + input {
+  display: none;
+}
+
+#form-box form {
+  display: grid;
+  gap: 0.5em;
+}
+
+#form-box :is(h1, h2) {
+  margin: 0%;
+  padding: 0%;
+}

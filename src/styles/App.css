@@ -1,0 +1,18 @@
+#app {
+  display: grid;
+  gap: 0em;
+}
+
+#app > * {
+  position: relative;
+}
+
+.editBtn {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+}
+
+.noScroll {
+  overflow-y: scroll;
+}
