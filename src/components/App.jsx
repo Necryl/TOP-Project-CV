@@ -19,7 +19,7 @@ function App() {
   });
   const [experienceData, setExperienceData] = useState([
     {
-      name: "google",
+      name: "Google",
       date: "2024-2026",
       text: "Was a janitor, cleaned the 2nd floor every day at 5pm to the company's extreme satisfaction",
     },
